@@ -1,0 +1,37 @@
+<?xml version='1.0'?>
+<signatures version='1.0'>
+<class name="com/couchbase/lite/android/AndroidNetworkReachabilityManager$ConnectivityBroadcastReceiver">
+<method name="onReceive" type="(Landroid/content/Context;Landroid/content/Intent;)V"/>
+</class>
+<class name="com/couchbase/lite/android/AndroidNetworkReachabilityManager$State">
+<method name="values" type="()[Lcom/couchbase/lite/android/AndroidNetworkReachabilityManager$State;" class_method="true"/>
+<method name="valueOf" type="(Ljava/lang/String;)Lcom/couchbase/lite/android/AndroidNetworkReachabilityManager$State;" class_method="true"/>
+</class>
+<class name="com/couchbase/lite/android/AndroidNetworkReachabilityManager">
+<method name="&lt;init&gt;" type="(Lcom/couchbase/lite/android/AndroidContext;)V"/>
+<method name="startListening" type="()V"/>
+<method name="stopListening" type="()V"/>
+<method name="access$100" type="(Lcom/couchbase/lite/android/AndroidNetworkReachabilityManager;)Z" class_method="true"/>
+<method name="access$202" type="(Lcom/couchbase/lite/android/AndroidNetworkReachabilityManager;Lcom/couchbase/lite/android/AndroidNetworkReachabilityManager$State;)Lcom/couchbase/lite/android/AndroidNetworkReachabilityManager$State;" class_method="true"/>
+<method name="access$200" type="(Lcom/couchbase/lite/android/AndroidNetworkReachabilityManager;)Lcom/couchbase/lite/android/AndroidNetworkReachabilityManager$State;" class_method="true"/>
+</class>
+<class name="com/couchbase/lite/android/AndroidNetworkReachabilityManager$1">
+</class>
+<class name="com/couchbase/lite/BuildConfig">
+<method name="&lt;init&gt;" type="()V"/>
+</class>
+<class name="com/couchbase/touchdb/RevCollator">
+<method name="&lt;init&gt;" type="()V"/>
+<method name="register" type="(Landroid/database/sqlite/SQLiteDatabase;)V" class_method="true"/>
+<method name="testCollateRevIds" type="(Ljava/lang/String;Ljava/lang/String;)I" class_method="true"/>
+</class>
+<class name="com/couchbase/touchdb/TDCollateJSON">
+<method name="&lt;init&gt;" type="()V"/>
+<method name="registerCustomCollators" type="(Landroid/database/sqlite/SQLiteDatabase;)V" class_method="true"/>
+<method name="compareStringsUnicode" type="(Ljava/lang/String;Ljava/lang/String;)I" class_method="true"/>
+<method name="testCollateJSON" type="(IILjava/lang/String;ILjava/lang/String;)I" class_method="true"/>
+<method name="testEscape" type="(Ljava/lang/String;)C" class_method="true"/>
+<method name="testDigitToInt" type="(I)I" class_method="true"/>
+<method name="testCollateJSONWrapper" type="(ILjava/lang/String;Ljava/lang/String;)I" class_method="true"/>
+</class>
+</signatures>
